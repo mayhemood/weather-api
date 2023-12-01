@@ -1,0 +1,136 @@
+/* Update the CSS to style the search container */
+.form {
+  display: flex;
+  align-items: center;
+}
+
+/* Style the input box */
+.form-input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Style the search button */
+.btn {
+  background-color: transparent; /* Transparent background */
+  color: #000; /* Text color */
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Add hover effect for the button */
+.btn:hover {
+  background-color: #f0f0f0; /* Background color on hover */
+}
+
+/* Style the SVG icon */
+svg {
+  width: 24px;
+  height: 24px;
+  margin-left: 5px; /* Add some spacing between the input and icon */
+}
+
+/* Body Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  background: linear-gradient(45deg, #f3f3f3 25%, transparent 25%, transparent 75%, #f3f3f3 75%, #f3f3f3),
+                linear-gradient(45deg, #f3f3f3 25%, #e0e0e0 25%, #e0e0e0 75%, #f3f3f3 75%, #f3f3f3);
+    background-size: 20px 20px;
+}
+
+/* Container Styles */
+.container {
+  width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Heading Styles */
+h1 {
+  margin-bottom: 20px;
+  color: #3498db;
+  text-align: center;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* Button Styles */
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2186c4;
+}
+
+/* Updated Box Styles */
+.box {
+  width: 100%;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Updated Animation Styles */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.animated-bg {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Footer Styles */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #777;
+}
+
+P {
+  text-align: center;
+  margin-top: 15px;
+}
+  
