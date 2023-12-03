@@ -1,104 +1,91 @@
-/* Update the CSS to style the search container */
 .form {
     display: flex;
     align-items: center;
 }
 
-/* Style the input box */
 .form-input {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
 }
 
-/* Style the search button */
 .btn {
-    background-color: transparent; /* Transparent background */
-    color: #000; /* Text color */
+    background-color: transparent;
+    color: #000; 
     border: 1px solid transparent;
     border-radius: 5px;
     padding: 10px;
     cursor: pointer;
 }
 
-/* Add hover effect for the button */
 .btn:hover {
-    background-color: #f0f0f0; /* Background color on hover */
+    background-color: #f0f0f0; 
 }
 
-/* Style the SVG icon */
 svg {
     width: 24px;
     height: 24px;
-    margin-left: 5px; /* Add some spacing between the input and icon */
+    margin-left: 5px; 
 }
 
 
-
-
-/* Styles for the boxes */
 .box_one,
 .box_two,
 .box_three {
     width: 50vw;
     text-align: left;
-    margin: 50px auto 0px; /* Center and space the boxes vertically */
+    margin: 50px auto 0px; 
 }
 
 .box_two,
 .box_three {
-    margin: 25px auto 0px; /* Adjust margin for the subsequent boxes */
+    margin: 25px auto 0px; 
 }
 
-/* Heading styles */
 h1 {
-    margin-bottom: 30px; /* Create space below the headings */
+    margin-bottom: 30px; 
     text-align: center;
 }
 
-/* Styling for the top section of each box */
 .one {
     color: azure;
     background-color: rgb(7, 3, 44);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    padding: 5px 10px 5px 15px; /* Padding for content */
+    padding: 5px 10px 5px 15px; 
 }
 
-/* Styling for temperature section */
 .temp_div {
-    padding-right: 50px; /* Create space on the right */
+    padding-right: 50px; 
 }
 
-/* Styling for subheadings */
 h3 {
     font-size: 1.125rem;
-    margin: 0px; /* Remove margin around subheadings */
+    margin: 0px; 
 }
 
-/* Styling for the left border line */
 .shadowLine {
     position: relative;
-    padding-left: 10px; /* Space on the left */
-    border-left: 1px solid #d1d5db; /* Left border */
+    padding-left: 10px; 
+    border-left: 1px solid #d1d5db;
 }
 
-/* Styling for year and date section */
+
 .year_date {
     position: absolute;
     bottom: 10px;
 }
 
-/* Styling for the main content section */
+
 .two {
     background-image: linear-gradient(90deg, rgb(64, 201, 211), #95b5e7);
     color: #000000;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 10px 10px 10px 15px; /* Padding for content */
+    padding: 10px 10px 10px 15px; 
 }
 
-/* Styling for weather icon */
+
 .weather_icon {
     width: 100px;
     height: 100px;
@@ -106,13 +93,13 @@ h3 {
     margin-right: 5px;
 }
 
-/* Styling for images */
+
 img {
     width: 100%;
     height: auto;
 }
 
-/* Styling for temperature in main content */
+
 .temp_div>h1 {
     margin-left: 40px;
     font-size: 4rem;
@@ -121,58 +108,54 @@ img {
     color: #F4D160;
 }
 
-/* Styling for the secondary content section */
+
 .three {
-    padding: 10px 10px 10px 15px; /* Padding for content */
+    padding: 10px 10px 10px 15px; 
     background-image: linear-gradient(90deg, rgb(64, 201, 211), #95b5e7);
     border-radius: 10px;
 }
 
-/* Styling for sub-three div */
+
 .sub-three {
     display: flex;
-    padding: 0px 8px 0px 8px; /* Padding around content */
+    padding: 0px 8px 0px 8px;
 }
 
-/* Styling for box two icon */
+
 .box_two_icon {
     display: flex;
 }
 
-/* Styling for left line */
 .left_line {
-    border-left: 1px solid #d1d5db; /* Create a left border line */
+    border-left: 1px solid #d1d5db;
 }
 
-/* Styling for icons in secondary content */
 .three svg {
     margin-right: 10px;
     width: 2vw;
-    height: 3vh; /* Adjust icon size */
+    height: 3vh; 
     color: #F4D160;
 }
 
-/* Styling for images and svgs */
 img,
 svg {
     vertical-align: baseline;
 }
 
-/* Styling for sub-three div with h3 */
+
 .sub-three>div>h3 {
     text-align: center;
-    font-size: 190%; /* Adjust font size */
+    font-size: 190%; 
     margin-bottom: 5px;
     color: #4C4C6D;
 }
 
-/* Styling for paragraph elements */
 .four>div>p,
 .sub1 p,
 .sub2 p,
 .sub3 p,
 .sub4 p {
-    margin-bottom: 0; /* Remove margin below paragraphs */
+    margin-bottom: 0;
 }
 
 /* Styling for sub-four paragraph */
