@@ -1,39 +1,34 @@
-/* Update the CSS to style the search container */
 .form {
   display: flex;
   align-items: center;
 }
 
-/* Style the input box */
 .form-input {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
 }
 
-/* Style the search button */
+
 .btn {
-  background-color: transparent; /* Transparent background */
-  color: #000; /* Text color */
+  background-color: transparent; 
+  color: #000; 
   border: 1px solid transparent;
   border-radius: 5px;
   padding: 10px;
   cursor: pointer;
 }
 
-/* Add hover effect for the button */
 .btn:hover {
-  background-color: #f0f0f0; /* Background color on hover */
+  background-color: #f0f0f0; 
 }
 
-/* Style the SVG icon */
 svg {
   width: 24px;
   height: 24px;
-  margin-left: 5px; /* Add some spacing between the input and icon */
+  margin-left: 5px;
 }
 
-/* Body Styles */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -45,21 +40,18 @@ body {
     background-size: 20px 20px;
 }
 
-/* Container Styles */
 .container {
   width: 80%;
     margin: 0 auto;
     padding: 30px;
 }
 
-/* Heading Styles */
 h1 {
   margin-bottom: 20px;
   color: #3498db;
   text-align: center;
 }
 
-/* Form Styles */
 form {
   display: flex;
   flex-direction: column;
@@ -83,7 +75,6 @@ input {
   outline: none;
 }
 
-/* Button Styles */
 button {
   background-color: #3498db;
   color: #fff;
@@ -98,7 +89,6 @@ button:hover {
   background-color: #2186c4;
 }
 
-/* Updated Box Styles */
 .box {
   width: 100%;
   margin: 20px 0;
@@ -108,7 +98,6 @@ button:hover {
   border-radius: 8px;
 }
 
-/* Updated Animation Styles */
 @keyframes fadeIn {
   from {
       opacity: 0;
@@ -121,8 +110,7 @@ button:hover {
 .animated-bg {
   animation: fadeIn 1s ease-in-out;
 }
-
-/* Footer Styles */
+\
 footer {
   margin-top: 20px;
   text-align: center;
