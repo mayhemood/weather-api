@@ -1,4 +1,4 @@
-# weather-api
+# Weather API
 This is my implementation of Weather Stack API, with a bit of CSS. 
 
 The outcome screenshot(s) can be found in a folder "results".   
